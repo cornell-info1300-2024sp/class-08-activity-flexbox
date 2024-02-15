@@ -2,26 +2,26 @@
 
 - Set a max viewing area for wide screens and center the content area inside the browser:
 
-    `body {
+    body {
         max-width: 1000px; /*set max width of content area */
         margin: 0 auto; /* center the content area */
-    }`
+    }
 
 - Setup the `<header>` so that the `<h1>` and `<nav>` are side by side using a flexbox:
 
-    `header {
+    header {
         display: flex; /* flex container */
         flex-direction: row; /* side by side */
         align-items: center; /* center in container */
         gap: 40px; /* add spacing between elements */
-    }`
+    }
 
 - Setup the `<nav>` so the links are side by side using flexbox:
 
-    `nav ul {
-        display: flex; /* flex the nav links */
+    nav ul {
+       display: flex; /* flex the nav links */
         flex-direction: row; /* side by side */
-    }`
+    }
 
 - Setup the Welcome and Events content areas so the the text content and the images are side by side:
 
