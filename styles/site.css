@@ -2,19 +2,45 @@
 /*       from course-provided examples. This includes the Ithaca Zoo example.  */
 html {
   background-color: #cfcbbf;
+  /* bg color for page borders */
 }
 
+/*
+  Set a max viewing area for wide screens:
+
+    max-width: 1000px; <-- set max width of content area
+    margin: 0 auto; <-- center the content area
+*/
+
 body {
-  margin: 0 auto;
-  max-width: 1000px;
+  /* max-width: 1000px; */
+  /* set max width of content area */
+  /* margin: 0 auto; */
+  /*center the content area */
+
   font-family: 'Lucida Grande', 'Calibri', 'Cantarell', sans-serif;
 
   background-color: white;
 }
 
+/*
+  Setup the header as a flex container - with the h1 and nav side by side:
+
+  display: flex; <-- set as flex container
+  flex-direction: row; <-- setup as side by side
+  align-items: center; <-- center in container
+  gap: 40px; <-- add spacing between elements
+*/
+
 header {
+  /* display: flex; */
+  /* flex container */
+  /* flex-direction: row; */
+  /* side by side */
   /* align-items: center; */
+  /* center in container */
   /* gap: 40px; */
+  /* add spacing between elements */
 
   padding-left: 24px;
 
@@ -31,7 +57,18 @@ header h1 a {
   text-decoration: none;
 }
 
+/*
+  Setup the nav as a flex container with the nav links side by side:
+
+  display: flex; <-- flex the nav links
+  flex-direction: row; <-- side by side
+*/
 nav ul {
+  /* display: flex; */
+  /* flex the nav links */
+  /* flex-direction: row; */
+  /* side by side */
+
   margin: 0;
   padding: 0;
 }
@@ -84,15 +121,34 @@ h2 {
   background-color: #3e587e;
 }
 
-.columns {
+/*
+  Setup a generic flex container for side by side content:
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+*/
+
+/* .columns {
   display: flex;
   flex-direction: row;
   gap: 24px;
-}
+} */
 
-.columns-center {
+/*
+  Setup a generic class to center flex items.
+
+  .columns-center {
+    align-items: center;
+  }
+*/
+
+/* .columns-center {
   align-items: center;
-}
+} */
 
 .readable {
   padding: 24px;
