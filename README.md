@@ -7,7 +7,7 @@
         margin: 0 auto; /* center the content area */
     }`
 
-- Setup the <header> so that the <h1> and <nav> are side by side using a flexbox:
+- Setup the `<header>` so that the `<h1>` and `<nav>` are side by side using a flexbox:
 
     `header {
         display: flex; /* flex container */
@@ -16,7 +16,7 @@
         gap: 40px; /* add spacing between elements */
     }`
 
-- Setup the <nav> so the links are side by side using flexbox:
+- Setup the `<nav>` so the links are side by side using flexbox:
 
     `nav ul {
     display: flex; /* flex the nav links */
