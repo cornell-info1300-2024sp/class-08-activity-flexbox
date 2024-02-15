@@ -1,5 +1,12 @@
 # INFO 1300 > Spring 24 > Activity > Flex Box
 
+## Resources
+
+[MDN > Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+## Instructions
+
 - Set a max viewing area for wide screens and center the content area inside the browser:
 
     ```
@@ -24,7 +31,7 @@
 
     ```
     nav ul {
-       display: flex; /* flex the nav links */
+        display: flex; /* flex the nav links */
         flex-direction: row; /* side by side */
     }
     ```
