@@ -40,24 +40,23 @@
 
     --  Setup a generic flex container for side by side content:
 
-        ```
+
         .columns {
             display: flex;
             flex-direction: row;
             gap: 24px;
         }
-        ```
+
 
     -- Setup a generic class to center flex items.
 
-        ```
+
         .columns-center {
             align-items: center;
         }
-        ```
+
 
     -- Setup a flex container in the HTML that then uses these generic classes:
 
-         ```
+
          <div class="columns columns-center ...">
-         ```
