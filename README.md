@@ -19,8 +19,8 @@
 - Setup the `<nav>` so the links are side by side using flexbox:
 
     `nav ul {
-    display: flex; /* flex the nav links */
-    flex-direction: row; /* side by side */
+        display: flex; /* flex the nav links */
+        flex-direction: row; /* side by side */
     }`
 
 - Setup the Welcome and Events content areas so the the text content and the images are side by side:
