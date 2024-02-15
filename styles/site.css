@@ -1,0 +1,131 @@
+/* Note: No credit is provided for submitting design and/or code that is taken */
+/*       from course-provided examples. This includes the Ithaca Zoo example.  */
+html {
+  background-color: #cfcbbf;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  font-family: 'Lucida Grande', 'Calibri', 'Cantarell', sans-serif;
+
+  background-color: white;
+}
+
+header {
+  /* align-items: center; */
+  /* gap: 40px; */
+
+  padding-left: 24px;
+
+  background-color: #efece5;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22pt;
+}
+
+header h1 a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: flex;
+  align-items: stretch;
+
+  list-style: none;
+}
+
+nav ul li a {
+  padding: 20px 24px;
+
+  color: black;
+
+  font-size: 18pt;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  padding-bottom: 8px;
+
+  background-color: #d0e3d9;
+  border-bottom: 8px solid #55bea9;
+}
+
+section {
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: 24pt;
+}
+
+.highlight {
+  color: black;
+  background-color: #efece5;
+}
+
+.highlight-fun {
+  color: white;
+  background-color: #f3633e;
+}
+
+.highlight-dark {
+  color: white;
+  background-color: #3e587e;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.columns-center {
+  align-items: center;
+}
+
+.readable {
+  padding: 24px;
+  background-color: white;
+  color: #2f466c;
+}
+
+.logo img {
+  display: block;
+}
+
+.theme-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 400px;
+  max-width: 800px;
+}
+
+.picture-citation {
+  display: block;
+  font-size: 11pt;
+  text-align: right;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+.picture-citation a {
+  color: #2f466c;
+}
+
+blockquote {
+  border-left: 2px solid #50525c;
+  padding: 0 10px;
+  margin-left: 0;
+}
